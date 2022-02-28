@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    padding: 80px 150px;
+    background-image: url("../images/1300.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}

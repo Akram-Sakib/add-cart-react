@@ -1,0 +1,35 @@
+.shopCard{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+}
+.card{
+    background-color:rgb(35, 216, 156);
+    border-radius: 20px;
+    padding: 20px 0;
+}
+.card img{
+    width: 100px;
+    border-radius: 90%;
+}
+.card ul{
+    display: block;
+    list-style: none;
+}
+.card span{
+    font-weight: bold;
+}
+button{
+    background-color: magenta;
+    padding: 5px 8px;
+    border-radius: 10px;
+    border: 1px solid mediumvioletred;
+    margin: 10px 0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.socialIcon svg{
+    margin: 0 15px;
+    font-size: 30px;
+}
